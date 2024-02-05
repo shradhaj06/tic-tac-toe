@@ -1,0 +1,38 @@
+
+.grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.grid-wrapper{
+    margin:0 600px;
+    width:600px;
+}
+.turn-highlight{
+    color: white;
+}
+.winn{
+    color: pink;
+}
+.btn{
+    padding: 10px;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color:var(--resetGreen) ;
+    border: none;
+    border-radius: 6%;
+    width: 90%;
+    margin-left: 10px;
+    
+}
+.btn:hover{
+    border:1px solid white;
+    background-color: cadetblue;
+    
+    
+}
